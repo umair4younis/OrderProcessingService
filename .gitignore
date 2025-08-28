@@ -1,0 +1,63 @@
+# Build results
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code settings
+.vscode/
+
+# Rider settings
+.idea/
+
+# ASP.NET/Entity Framework
+appsettings.*.json
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+# Entity Framework migrations build artifacts
+**/Migrations/_*.*
+
+# Test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Logs
+*.log
+
+# NuGet packages
+*.nupkg
+packages/
+.nuget/
+
+# Dotnet tools
+.dotnet/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Others
+*.vs/
+_ReSharper*/
+*.resharper
+*.sln.cache
+*.dbmdl
+
+# Coverage reports
+coverage/
+coverage*.json
+coverage*.xml
+lcov.info
+
+# MSBuild project extensions
+**/obj/
+**/bin/
